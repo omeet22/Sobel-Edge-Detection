@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-sample = cv2.imread("image/download.jpg",0)
+sample = cv2.imread("image/pw.jpg",0)
 
 def conv_transform(image):
 	image_copy=image.copy()
